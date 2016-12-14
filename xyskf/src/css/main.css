@@ -425,7 +425,17 @@ header .main ul li a:active{
     margin-top: 2rem;
     font-size: 1.5rem;
 }
-
+@media only screen and (max-width: 30em){
+    .product  h1 a{
+        font-size: 2.5rem;
+        color: #635c51;
+    }
+    .product .text li a{
+        margin-top: 1.5rem;
+        font-size: 1.5rem;
+        color: #00aaee;
+    }
+}
 .product h2 em{
     display: block;
     margin-top: 1rem;
